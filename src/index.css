@@ -160,3 +160,11 @@ Markdown
 .result {
   padding: 1rem 2rem;
 }
+
+@media screen and (min-width: 992px) {
+  .markdown {
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+  }
+}
