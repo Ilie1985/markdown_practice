@@ -16,7 +16,10 @@ function App() {
           value={markdown}
           onChange={textHandler}
         ></textarea>
-        <article className="result">{markdown}</article>
+        <article className="result">
+          <ReactMarkdown>{markdown}</ReactMarkdown>
+      
+        </article>
       </section>
     </main>
   );
