@@ -135,3 +135,14 @@ p {
     width: 95vw;
   }
 }
+
+/*
+=============== 
+Markdown
+===============
+*/
+.markdown {
+  padding: 4rem;
+  display: grid;
+  row-gap: 4rem;
+}
